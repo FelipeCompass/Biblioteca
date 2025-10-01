@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|c:\\users\\felip\\onedrive\\documentos\\fuzzy\\biblioteca\\biblioteca\\data\\examplecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\data\\examplecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|c:\\users\\felip\\onedrive\\documentos\\fuzzy\\biblioteca\\biblioteca\\dtos\\exampledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\dtos\\exampledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|c:\\users\\felip\\onedrive\\documentos\\fuzzy\\biblioteca\\biblioteca\\interfaces\\iexampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\interfaces\\iexampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|c:\\users\\felip\\onedrive\\documentos\\fuzzy\\biblioteca\\biblioteca\\models\\example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\models\\example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|c:\\users\\felip\\onedrive\\documentos\\fuzzy\\biblioteca\\biblioteca\\services\\exempleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\services\\exempleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|c:\\users\\felip\\onedrive\\documentos\\fuzzy\\biblioteca\\biblioteca\\biblioteca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{748D80C3-4E48-45C3-8E16-03AF1ED23143}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\biblioteca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +34,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExampleContext.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Data\\ExampleContext.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Data\\ExampleContext.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Data\\ExampleContext.cs",
+              "RelativeToolTip": "Biblioteca\\Data\\ExampleContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:28:54.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExampleDto.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\DTOs\\ExampleDto.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\DTOs\\ExampleDto.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\DTOs\\ExampleDto.cs",
+              "RelativeToolTip": "Biblioteca\\DTOs\\ExampleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:28:44.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IExampleService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Interfaces\\IExampleService.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Interfaces\\IExampleService.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Interfaces\\IExampleService.cs*",
+              "RelativeToolTip": "Biblioteca\\Interfaces\\IExampleService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:28:25.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Example.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Models\\Example.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Models\\Example.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Models\\Example.cs",
+              "RelativeToolTip": "Biblioteca\\Models\\Example.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:28:17.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExempleService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Services\\ExempleService.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Services\\ExempleService.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Services\\ExempleService.cs",
+              "RelativeToolTip": "Biblioteca\\Services\\ExempleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:27:56.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Biblioteca",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
+              "RelativeDocumentMoniker": "Biblioteca\\Biblioteca.csproj",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\Fuzzy\\Biblioteca\\Biblioteca\\Biblioteca.csproj*",
+              "RelativeToolTip": "Biblioteca\\Biblioteca.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-01T18:21:03.305Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"

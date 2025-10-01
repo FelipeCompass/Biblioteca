@@ -1,6 +1,6 @@
 ﻿namespace Biblioteca.Interfaces
 {
-    public interface IExample
+    public interface IExampleService
     {
     }
 }
