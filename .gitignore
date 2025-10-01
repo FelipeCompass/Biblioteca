@@ -52,3 +52,4 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+.vs/Biblioteca/FileContentIndex/b65dd359-4ac5-430f-bd10-e1ccd3e326d8.vsidx
