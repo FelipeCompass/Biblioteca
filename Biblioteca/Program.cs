@@ -13,6 +13,8 @@ builder.Services.AddDbContext<BibliotecaContext>(options =>
 
 // Registrando Serviços
 builder.Services.AddScoped<IPessoaService, PessoaService>();
+builder.Services.AddScoped<ILivroService, LivroService>();
+
 // Adicione outros serviços conforme necessário
 
 // Serviços da API
