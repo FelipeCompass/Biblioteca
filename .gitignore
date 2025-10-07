@@ -54,3 +54,9 @@ TestResult.xml
 nunit-*.xml
 .vs/Biblioteca/FileContentIndex/b65dd359-4ac5-430f-bd10-e1ccd3e326d8.vsidx
 *.vsidx
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/CodeChunks.db
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/CodeChunks.db-wal
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/SemanticSymbols.db
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/SemanticSymbols.db-wal
+.vs/Biblioteca/v17/.suo
+*.db-wal
