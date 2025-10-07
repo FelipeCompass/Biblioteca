@@ -51,7 +51,39 @@ Criar uma aplicação web onde usuários possam:
 
 4. Abra os arquivos HTML no navegador  
    `frontend/index.html`
+## 🧑‍💻 Para Criar o banco de dados utilize o script
+-- Criação do schema (banco de dados)
+CREATE SCHEMA IF NOT EXISTS biblioteca;
+USE biblioteca;
 
+-- Tabela de Livros
+CREATE TABLE IF NOT EXISTS Livros (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Titulo VARCHAR(100) NOT NULL,
+    Autor VARCHAR(100),
+    Genero VARCHAR(50),
+    AnoPublicacao INT,
+    Disponivel BOOLEAN DEFAULT TRUE
+);
+
+-- Tabela de Pessoas
+CREATE TABLE IF NOT EXISTS Pessoas (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Email VARCHAR(100),
+    Telefone VARCHAR(20)
+);
+
+-- Tabela de Empréstimos
+CREATE TABLE IF NOT EXISTS Emprestimos (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    LivroId INT NOT NULL,
+    PessoaId INT NOT NULL,
+    DataEmprestimo DATE NOT NULL,
+    DataDevolucao DATE,
+    FOREIGN KEY (LivroId) REFERENCES Livros(Id) ON DELETE CASCADE,
+    FOREIGN KEY (PessoaId) REFERENCES Pessoas(Id) ON DELETE CASCADE
+);
 ---
 
 ## 💬 Contribuição
@@ -69,6 +101,8 @@ Sinta-se livre para sugerir melhorias, adicionar funcionalidades ou deixar tudo 
 - Como trabalhar em equipe com organização e propósito
 
 ---
+
+
 
 ## 📣 Créditos
 
