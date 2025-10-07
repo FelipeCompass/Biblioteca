@@ -52,6 +52,7 @@ Criar uma aplicação web onde usuários possam:
 4. Abra os arquivos HTML no navegador  
    `frontend/index.html`
 ## 🧑‍💻 Para Criar o banco de dados utilize o script
+```
 -- Criação do schema (banco de dados)
 CREATE SCHEMA IF NOT EXISTS biblioteca;
 USE biblioteca;
@@ -84,6 +85,7 @@ CREATE TABLE IF NOT EXISTS Emprestimos (
     FOREIGN KEY (LivroId) REFERENCES Livros(Id) ON DELETE CASCADE,
     FOREIGN KEY (PessoaId) REFERENCES Pessoas(Id) ON DELETE CASCADE
 );
+```
 ---
 
 ## 💬 Contribuição
