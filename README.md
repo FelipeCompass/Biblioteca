@@ -87,6 +87,33 @@ CREATE TABLE IF NOT EXISTS Emprestimos (
 );
 ```
 ---
+## 🧑‍💻 Palavras-chave banco SQL
+```
+
+| Palavra-chave     | Função / Descrição |
+|-------------------|--------------------|
+| `CREATE`          | Cria um novo banco de dados ou tabela |
+| `DATABASE`        | Define que o objeto a ser criado é um banco de dados |
+| `TABLE`           | Define que o objeto a ser criado é uma tabela |
+| `USE`             | Seleciona o banco de dados que será utilizado |
+| `INSERT INTO`     | Insere dados em uma tabela |
+| `VALUES`          | Define os valores que serão inseridos |
+| `SELECT`          | Consulta dados de uma tabela |
+| `FROM`            | Indica de qual tabela os dados serão consultados |
+| `WHERE`           | Aplica uma condição para filtrar os dados |
+| `ORDER BY`        | Ordena os resultados da consulta |
+| `LIMIT`           | Limita a quantidade de resultados retornados |
+| `UPDATE`          | Atualiza dados existentes em uma tabela |
+| `SET`             | Define os novos valores a serem atualizados |
+| `DELETE`          | Remove dados de uma tabela |
+| `DROP`            | Exclui uma tabela ou banco de dados |
+| `ALTER TABLE`     | Modifica a estrutura de uma tabela |
+| `ADD`             | Adiciona uma nova coluna à tabela |
+| `AUTO_INCREMENT`  | Faz com que o valor de uma coluna aumente automaticamente |
+| `PRIMARY KEY`     | Define a coluna como chave primária (identificador único) |
+| `VARCHAR(n)`      | Tipo de dado para texto com até n caracteres |
+| `INT`             | Tipo de dado para números inteiros |
+```
 
 ## 💬 Contribuição
 
