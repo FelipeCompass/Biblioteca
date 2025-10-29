@@ -2,6 +2,7 @@ using Biblioteca.Data;
 using Biblioteca.Interfaces;
 using Biblioteca.Services;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,14 +12,20 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<BibliotecaContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-// Registrando Serviços
+// Registrando Services
 builder.Services.AddScoped<IPessoaService, PessoaService>();
+builder.Services.AddScoped<IEmprestimoService, EmprestimoService>();
 builder.Services.AddScoped<ILivroService, LivroService>();
 
-// Adicione outros serviços conforme necessário
+// Serviços da API - configurar serializer para ignorar ciclos de referência
+builder.Services
+    .AddControllers()
+    .AddJsonOptions(o =>
+    {
+        o.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        // opcional: o.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+    });
 
-// Serviços da API
-builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

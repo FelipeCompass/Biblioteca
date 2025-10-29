@@ -14,13 +14,13 @@ namespace Biblioteca.Data
 
         public DbSet<Pessoa> Pessoas { get; set; }
         public DbSet<Livro> Livros { get; set; }
-        //public DbSet<Emprestimo> Emprestimos { get; set; }
+        public DbSet<Emprestimo> Emprestimos { get; set; } 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new PessoaConfiguration());
             modelBuilder.ApplyConfiguration(new LivroConfiguration());
-            //modelBuilder.ApplyConfiguration(new EmprestimoConfiguration());
+            modelBuilder.ApplyConfiguration(new EmprestimoConfiguration());
         }
     }
 }

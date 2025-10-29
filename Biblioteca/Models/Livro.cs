@@ -1,4 +1,6 @@
-﻿namespace Biblioteca.Models
+﻿using System.Text.Json.Serialization;
+
+namespace Biblioteca.Models
 {
     public class Livro
     {
@@ -10,7 +12,8 @@
         public bool Disponivel { get; set; }
 
         // Navegação para empréstimos
-        // public ICollection<Emprestimo>? Emprestimos { get; set; }
+        [JsonIgnore]
+        public ICollection<Emprestimo>? Emprestimos { get; set; }
     }
 
 }
