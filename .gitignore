@@ -60,3 +60,12 @@ nunit-*.xml
 .vs/Biblioteca/CopilotIndices/17.14.1231.31060/SemanticSymbols.db-wal
 .vs/Biblioteca/v17/.suo
 *.db-wal
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/CodeChunks.db
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/CodeChunks.db-shm
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/CodeChunks.db-wal
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/SemanticSymbols.db
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/SemanticSymbols.db-shm
+.vs/Biblioteca/CopilotIndices/17.14.1231.31060/SemanticSymbols.db-wal
+.vs/Biblioteca/v17/.futdcache.v2
+.vs/Biblioteca/v17/.suo
+*.bin
